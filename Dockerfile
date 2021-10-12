@@ -2,7 +2,7 @@ FROM node:14.15.1-buster-slim
 
 WORKDIR /apps/douyin
 ADD douyin.js /apps/douyin/
-EXPOSE 7878
+EXPOSE 7879
 
 RUN set -ex \
     && npm config set registry https://registry.npm.taobao.org/ \
